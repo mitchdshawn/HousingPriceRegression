@@ -6,11 +6,11 @@
 
 **Executive Summary**
 
-Using the Ames housing dataset, we can clean and modify the data to allow a regression model to predict pricing accuracy with a reasonable level of accuracy.  The scikit learn RidgeCV model performs the best with the modified data this project generates.
+Using the Ames housing dataset, we can iteratively clean the data to create a pricing prediction model that can predict housing prices with reasonable accuracy. Models will be uploaded to a Kaggle competition for scoring their performance against a dataset with unknown target pricing. Based on performance scores between cross validation, train/test split, and Kaggle score, a model is identified with reasonable accuracy at the end.
 
 **Data Science Problem**
 
-Do the provided features have a reasonably consistent correlation with housing prices in the Ames housing dataset, and can a linear regression model predict pricing on generalized unseen data sets of this housing data?
+Do the provided features have a reasonably consistent correlation with housing prices in the Ames housing dataset, and can a linear regression model predict pricing on generalized unseen data sets of this housing data? If these correlations exist, we expect to be able to create a pricing prediction model with reasonable accuracy.
 
 **Notebooks Included**
 
@@ -19,7 +19,7 @@ Do the provided features have a reasonably consistent correlation with housing p
 03 - Production model iteration
 
 **Python Requirements**
-Code written in Python 3.7, libraries required includes pandas, numpy, matplotlib, seaborn, sklearn.
+Code written in Python 3.7, libraries required includes pandas, numpy, matplotlib, seaborn, sklearn. Optionally, luminol can be used for an overview of outliers (not required for EDA process).
 
 **Data Dictionary**
 [Link to data description](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
